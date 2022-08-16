@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  web:
+    #image: homeassistant/home-assistant:latest
+    image: hassio:latest
+    container_name: hassio
+    restart: always
+    ports:
+      - 8123:8123
+    networks:
+      - default
+    volumes:
+      - data:/data
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
