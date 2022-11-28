@@ -1,8 +1,7 @@
 version: '3.9'
 services:
   web:
-    #image: homeassistant/home-assistant:latest
-    image: hassio:latest
+    image: homeassistant/home-assistant:latest
     container_name: hassio
     restart: always
     ports:
