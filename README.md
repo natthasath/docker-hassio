@@ -1,6 +1,6 @@
 # 🎉 Docker Hassio
 
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+Hass.io is an open-source home automation platform that provides a web-based interface to control and automate smart devices, it is built on top of Home Assistant and includes an add-on store for additional functionality.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
