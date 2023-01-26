@@ -5,7 +5,7 @@ services:
     container_name: hassio
     restart: always
     ports:
-      - 8123:8123
+      - ${APP_PORT}:8123
     networks:
       - default
     volumes:
