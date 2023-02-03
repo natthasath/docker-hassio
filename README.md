@@ -6,7 +6,7 @@ Hass.io is an open-source home automation platform that provides a web-based int
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🥈 Run
+### 🏆 Run
 
 - [http://localhost:8123/](http://localhost:8123/) username : `admin` password : `admin`
 
