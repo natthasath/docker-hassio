@@ -9,8 +9,15 @@ services:
     networks:
       - default
     volumes:
+      - data:/config
       - ./data:/config
 
 networks:
   default:
+    name: docker_hassio_network
     driver: bridge
+
+volumes:
+  data:
+    name: docker_hassio_data
+    driver: local
