@@ -8,7 +8,7 @@ services:
     ports:
       - ${HASSIO_HTTP_PORT}:8123
     volumes:
-      - hassio_data:/config
+      - default:/config
       - ${HASSIO_LOCAL_CONFIG}:/config/custom
     networks:
       - default
@@ -20,10 +20,10 @@ services:
 
 networks:
   default:
-    name: hassio_network
+    name: ${HASSIO_CONTAINER_NAME}_network
     driver: bridge
 
 volumes:
-  hassio_data:
-    name: hassio_data
+  default:
+    name: ${HASSIO_CONTAINER_NAME}_data
     driver: local
