@@ -1,3 +1,5 @@
+name: ${GLOBAL_NAME}
+
 services:
   hassio:
     container_name: ${HASSIO_CONTAINER_NAME}
